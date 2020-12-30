@@ -1,0 +1,29 @@
+
+.listPhone{
+    &__title{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-grow: 3;
+        text-align: right;
+        padding: 20px 0;
+        h1{
+            flex-grow: 1;
+            color: $color-green-0;
+        }
+        &__cart{
+            flex-grow:1;
+            cursor: pointer;
+            i{
+                padding: 0 20px;
+                font-size: 36px;
+                &:first-child{
+                color: $color-red-0;
+                }
+                &:nth-child(2){
+                color: $color-orange-0; 
+                }
+            }
+        }
+    }
+}

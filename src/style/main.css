@@ -1,0 +1,22 @@
+.listPhone__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 3;
+  text-align: right;
+  padding: 20px 0; }
+  .listPhone__title h1 {
+    flex-grow: 1;
+    color: green; }
+  .listPhone__title__cart {
+    flex-grow: 1;
+    cursor: pointer; }
+    .listPhone__title__cart i {
+      padding: 0 20px;
+      font-size: 36px; }
+      .listPhone__title__cart i:first-child {
+        color: red; }
+      .listPhone__title__cart i:nth-child(2) {
+        color: orange; }
+
+/*# sourceMappingURL=main.css.map */
